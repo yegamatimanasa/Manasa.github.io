@@ -181,7 +181,7 @@ export default function Projects() {
                       }
                     >
                       <Image
-                        src="/Github.svg"
+                        src="/GitHub.svg"
                         alt="github"
                         width={40}
                         height={40}
@@ -193,7 +193,7 @@ export default function Projects() {
                   </TooltipContent>
                 </Tooltip>
               </TooltipProvider>
-              <TooltipProvider delayDuration={200}>
+              {/* <TooltipProvider delayDuration={200}>
                 <Tooltip>
                   <TooltipTrigger asChild>
                     <button
@@ -218,7 +218,7 @@ export default function Projects() {
                     <p>Live Preview</p>
                   </TooltipContent>
                 </Tooltip>
-              </TooltipProvider>
+              </TooltipProvider> */}
             </div>
           </div>
           <div className="flex-1 flex items-center flex-col">
