@@ -155,15 +155,15 @@ export default function Resume() {
               I am <b>Manasa Yegamati</b>, a passionate <b>Software Engineer</b>{" "}
               and <b>Researcher</b> with expertise in{" "}
               <b>
-                Full-Stack Development, Cloud Computing, and Artificial
-                Intelligence
+                full-stack development, cloud computing, and artificial
+                intelligence
               </b>
               . Currently pursuing an{" "}
               <b>MS in Computer Science with Industrial Placement</b>
               at the <b>University of East London</b>, I have a strong
               background in designing and developing scalable, high-performance
               applications. My technical proficiency spans{" "}
-              <b>ReactJS, NextJS, Node.js, Flask</b>, and <b>WebSockets </b>
+              <b>ReactJS, Next.js, Node.js, Flask</b>, and <b>WebSockets </b>
               for real-time communication, alongside <b>GraphQL </b> and{" "}
               <b>REST</b> for efficient data handling. I am also experienced in
               cloud platforms like <b>AWS</b> and <b>GCP</b>, database
