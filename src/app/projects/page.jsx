@@ -16,6 +16,24 @@ import { MotionDiv } from "@/utils/motionTags";
 
 const projects = [
   {
+    title: "Geo Crop AI Recommendation Framework ",
+    desc: "GeoCropAI is a web tool that analyzes geographical and environmental data to recommend optimal crops, helping farmers maximize yield and sustainability.",
+    category: "Full Stack Application",
+    image: "/crop.jpg",
+    stack: ["Python", "Flask", "RESTAPIs", "OpenWeather API", "AI/ML"],
+    url: "https://github.com/yegamatimanasa/GeoCropAI",
+    liveurl: null,
+  },
+  {
+    title: "Collaborative Whiteboard  ",
+    desc: "The Collaborative Whiteboard is an interactive digital canvas that allows multiple users to draw, erase, and edit in real-time, enabling seamless collaboration and idea sharing.",
+    category: "Full Stack Application",
+    image: "/board.png",
+    stack: ["NextJS", "RESTAPIs", "GraphQL", "WebSockets","MongoDB"],
+    url: "https://github.com/yegamatimanasa/Collaborative-Whiteboard",
+    liveurl: null,
+  },
+  {
     title: "Weather Tracker",
     desc: "A real-time weather app built with React, Vite, and OpenWeather API, featuring dynamic video backgrounds, live forecasts, and air quality insights for an immersive and responsive user experience.",
     category: "Full Stack Application",
@@ -23,15 +41,6 @@ const projects = [
     stack: ["NextJS", "Redux", "Vite", "OpenWeather API"],
     url: "https://github.com/yegamatimanasa/Weather-Tracker",
     liveurl: "https://weather-tracker-rose.vercel.app/",
-  },
-  {
-    title: "GeoCropAI",
-    desc: "GeoCropAI is a web tool that analyzes geographical and environmental data to recommend optimal crops, helping farmers maximize yield and sustainability.",
-    category: "Full Stack Application",
-    image: "/crop.jpg",
-    stack: ["Python", "Flask", "RESTAPIs", "OpenWeather API", "AI/ML"],
-    url: "https://github.com/yegamatimanasa/GeoCropAI",
-    liveurl: null,
   },
   {
     title: "Greenhouse Gas Emission Calculator",

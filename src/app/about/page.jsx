@@ -159,7 +159,7 @@ export default function Resume() {
                 intelligence
               </b>
               . Currently pursuing an{" "}
-              <b>MS in Computer Science with Industrial Placement</b>
+              <b>MS in Computer Science with Industrial Placement </b>
               at the <b>University of East London</b>, I have a strong
               background in designing and developing scalable, high-performance
               applications. My technical proficiency spans{" "}

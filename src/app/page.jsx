@@ -60,7 +60,7 @@ export default function page() {
           animate="animate"
           variants={variants.moveUp}
           transition={transition.moveUp}
-          onClick={() => window.open("/ManasaYegamati-SE.pdf", "_blank")}
+          onClick={() => window.open("/Manasa_Resume.pdf", "_blank")}
         >
           <DownloadIcon className="mr-2"></DownloadIcon>
           Resume
