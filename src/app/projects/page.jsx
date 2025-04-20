@@ -29,7 +29,7 @@ const projects = [
     desc: "The Collaborative Whiteboard is an interactive digital canvas that allows multiple users to draw, erase, and edit in real-time, enabling seamless collaboration and idea sharing.",
     category: "Full Stack Application",
     image: "/board.png",
-    stack: ["NextJS", "RESTAPIs", "GraphQL", "WebSockets","MongoDB"],
+    stack: ["NextJS", "Node.js","Express.js","Tailwind CSS", "RESTAPIs", "GraphQL", "WebSockets","MongoDB"],
     url: "https://github.com/yegamatimanasa/Collaborative-Whiteboard",
     liveurl: null,
   },

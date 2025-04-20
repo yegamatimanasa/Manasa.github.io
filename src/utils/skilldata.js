@@ -93,6 +93,11 @@ export const skillsData = [
           icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2560px-Node.js_logo.svg.png",
         },
         {
+          skillName: "Express.js",
+          percentage: "25",
+          icon: "https://images.codingblocks.com/web/express.png",
+        },
+        {
           skillName: "Flask",
           percentage: "25",
           icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAWCAMAAACi/q9qAAAAZlBMVEX///8AAADz8/Pm5ub8/Py/v79fX1/Dw8Pv7+/Ozs729vZycnKJiYnf399/f3+CgoKoqKiYmJiurq7Z2dm2trY0NDShoaFBQUFkZGQdHR06OjpQUFB4eHgVFRVLS0taWloLCwspKSkOQG78AAAB7klEQVQ4jZ2UiY7jIAyG7QDlCDRcJWev93/JNZk2k0lHWu1aESGGD37/iAAAcAb/F03/e16Wj5RZ9ps0l/F7SjPN823uLwVO2B05huh2nwJD+5AbiYHalpYa7ceODHc7ivE652XW4vW9giYBnD7BZgc2/SMIBi7bdgfW+AsYotTnvkv6nUBS6dkGGpnqiwtavYKcNcrUTMLrFDg0ywbezi3WoVM1p5sKRgCFMeAKmhbveZ14vfQpA//e0SqH/AWyi4LhTBImMkNVsLm91XaXUIjabK01ijdYtfb0dnjNa40Ft4n51BWXclZ7V1dzaCeIc7nVBVSLzwq2C25ODVd/143RR7BKrIW1ZJKuZyjBkKt433xFW+e+JDgczFfvORmwqOX47KCvhSvQZJTD2fF1Ahsf9m7h69SM9aFby482WCIXrawCF1rK8nMoGWRnX2UVHCRCk+Ffgwr3Uw9M/zYo1gfe7Rr83dGnqQyCi3SAfBAy6xSFjjlrmWMsnvriW5u44/gcePA/QcaUS42STjGTXFKRJeeYc247S9A3fE4BjCdB7HgPtxKqac1hMA03xLbL0S5DiSSoJqWMwtdWi+iY9OAhahnpWvxYV1gS/BiRYjyvYjRLWoNOTjPPU0qQjXOaOoe/FCf5ZIF28BEfP7Q/JHcY4S2HfcoAAAAASUVORK5CYII=",
@@ -148,6 +153,11 @@ export const skillsData = [
     {
       label: "Testing & Security",
       data: [
+        {
+          skillName: "Jest",
+          percentage: "35",
+          icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRly3IRIZUaJoPPV4pgKljrHV1U4PGrFIrp-w&s",
+        },
         {
           skillName: "SAST",
           percentage: "35",
