@@ -71,6 +71,29 @@ const educationData = [
     ],
   },
 ];
+
+const publicationData = [
+  {
+    title:
+      "AI-GeoInfo Crop Recommendation Framework Using Decision Tree Classifier and Flask-based GeoAPIs",
+    authors: "Hisham Abougrad, Manasa Yegamati",
+    venue: "3rd International Conference on Mechatronics and Smart Systems (CONF‑MSS 2025) – Applied and Computational Engineering (ACE)",
+    link: "https://www.ewadirect.com/proceedings/ace/article/view/23348",
+    doi: "https://doi.org/10.54254/2755-2721/2025.23348",
+    description:
+      "The Crop Recommendation AI-GeoInfo Framework is a smart web application that helps farmers choose the best crops based on local soil and weather conditions. It uses a Decision Tree Classifier trained on environmental data like temperature, rainfall, humidity, and soil pH. Missing data is handled using Python’s SimpleImputer. The app, built with Flask and GeoPy, lets users enter their location to match it with nearby soil data. Based on this, the model suggests the most suitable crops. The user-friendly interface shows crop recommendations and detailed soil and weather info. The system is scalable and easily adaptable for broader agricultural use.",
+  },
+  {
+    title: "Hybrid Deep Learning Healthcare AI Framework for Real-Time Human Pose Estimation and Remote Patient Monitoring to Support TKR Physiotherapy",
+    authors: "Hisham Abougrad, Manasa Yegamati, Mimi Mather",
+    venue: "Accelerating Open Access Science in Human Factors Engineering and Human-Centered Computing - AHFE Open Access(AHFE International)",
+    link: "https://openaccess.cms-conferences.org/publications/book/978-1-964867-72-4/article/978-1-964867-72-4_13",
+    doi:"https://doi.org/10.54941/ahfe1005962",
+    description:
+      "Hybrid Deep Learning Healthcare AI Framework for Real-Time Human Pose Estimation and Remote Patient Monitoring to Support TKR Physiotherapy aims to enhance remote rehabilitation by using a hybrid AI system that combines Dense Convolutional Neural Networks (DCNN) with a pruned Generative Adversarial Network (Sparse GAN). The framework enables accurate real-time human pose estimation and exercise feedback for patients recovering from Total Knee Replacement (TKR). Trained on over 10,000 annotated videos, the hybrid model achieved an 86% F1-score, making it suitable for clinical use, while the faster Sparse GAN supports mobile deployment. This research addresses the need for scalable, precise, and patient-centric physiotherapy monitoring in resource-constrained healthcare environments.",
+  },
+];
+
 export default function Resume() {
   const [scrollProgress, setScrollProgress] = useState(0);
   const timelineRef = useRef(null);
@@ -148,6 +171,7 @@ export default function Resume() {
             <TabsTrigger value="about">About</TabsTrigger>
             <TabsTrigger value="experience">Experience</TabsTrigger>
             <TabsTrigger value="education">Education</TabsTrigger>
+            <TabsTrigger value="publications">Publications</TabsTrigger>
           </TabsList>
           <TabsContent value="about">
             <h6>Hello! </h6>
@@ -158,12 +182,12 @@ export default function Resume() {
                 full-stack development, cloud computing, and artificial
                 intelligence
               </b>
-              . Currently pursuing an{" "}
+              . Completed an{" "}
               <b>MS in Computer Science with Industrial Placement </b>
               at the <b>University of East London</b>, I have a strong
               background in designing and developing scalable, high-performance
               applications. My technical proficiency spans{" "}
-              <b>ReactJS, Next.js, Node.js, Flask</b>, and <b>WebSockets </b>
+              <b>ReactJS, Next.js, Node.js, TypeScript</b>, and <b>WebSockets </b>
               for real-time communication, alongside <b>GraphQL </b> and{" "}
               <b>REST</b> for efficient data handling. I am also experienced in
               cloud platforms like <b>AWS</b> and <b>GCP</b>, database
@@ -309,6 +333,47 @@ export default function Resume() {
                           ))}
                         </ul>
                       </>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
+          </TabsContent>
+                    {/* PUBLICATIONS --------------------------- */}
+          <TabsContent value="publications">
+            <div className=" text-white p-8 min-h-screen flex justify-center">
+              <div className="max-w-3xl w-full space-y-12">
+                {publicationData.map((pub, index) => (
+                  <div key={index} className="space-y-1">
+                    <a
+                      href={pub.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:underline"
+                    >
+                      <h3 className="text-lg font-bold text-primary">
+                        {pub.title}
+                      </h3>
+                    </a>
+                    <p className="italic text-gray-300">{pub.authors}</p>
+                    <p className="text-sm text-gray-400">
+                      {pub.venue}
+                    </p>
+                    <p className="text-sm text-gray-400">
+                          DOI:&nbsp; &nbsp;
+                          <a
+                            href={pub.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-primary underline break-all"
+                          >
+                            {pub.doi}
+                          </a>
+                        </p>
+                    {pub.description && (
+                      <p className="text-justify text-accent-foreground pt-2">
+                        {pub.description}
+                      </p>
                     )}
                   </div>
                 ))}
